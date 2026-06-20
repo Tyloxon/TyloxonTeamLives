@@ -1,0 +1,40 @@
+Need 4 pools of lives, one for each team.
+Players should be able to join teams with a trigger.
+
+There should be an scoreboard for keeping track of admins.
+Admins should be able to reset the team lives with a trigger.
+Admins should be able to change the starting lives in the config.
+There should be a config scoreboard.
+
+Deaths need to be kept track of.
+Previous tick deaths need to be kept track of to detect change.
+When a player dies:
+    Their team's lives should decrease by 1.
+    They should be put into spectator mode.
+    They should be forced to spectate teammates (make sure always within 10 blocks, tp if not?)
+    Can respawn after configured time (min) if enough lives.
+    Forced respawn after a configured time (max) if enough lives.
+
+Team lives should be visible on each players screen (sidebar?).
+    Other teams shouldn't know the team lives.
+
+Need a scoreboard for config settings "TTL_Config"
+Need a scoreboard for initialised players "TTL_ReadyPlayers"
+Need a scoreboard for admins "TTL_Admins"
+Need a scoreboard to keep track of time dead "TTL_DeadTime"
+Need a scoreboard for player deaths "TTL_Deaths"
+Need a scoreboard for previous player deaths "TTL_PrevDeaths"
+Need a scoreboard for team lives "TTL_TeamLives"
+
+Need a config for whether the datapack has run before "LoadedOnce"
+Need a config for initial team lives of each team "InitialTeamLives"
+Need a config for time before respawn "RespawnWaitTime"
+Need a config for max time for forced respawn "RespawnTimeout"
+Need a config for distance spectators can be from teammates "SpectatorMaxDistance"
+
+Need a trigger for respawning dead teammates "RespawnTeam"
+Need a trigger for joining each team respectively "JoinTeam" passing team number
+Need an admin trigger for resetting datapack config
+Need an admin trigger for reseting team lives "ResetLives"
+Need an admin trigger for displaying each team's lives "ShowTeamLives"
+Need an admin trigger for displaying each team's lives to everyone "BroadcastTeamLives"

@@ -1,0 +1,9 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": [ 15, 81 ],
+		"min_format": 15,
+		"max_format": [ 107, 1 ],
+		"description": "Team lives by Tyloxon"
+	}
+}
