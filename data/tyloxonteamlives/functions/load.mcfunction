@@ -8,7 +8,7 @@ execute unless score LoadedOnce TTL_Config matches 1 run scoreboard players set 
 
 # Teams, set their colours here
 team add Team1
-team modify Team1 color orange
+team modify Team1 color gold
 team add Team2
 team modify Team2 color green
 team add Team3
