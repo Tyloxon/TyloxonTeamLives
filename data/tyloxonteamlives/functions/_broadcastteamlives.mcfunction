@@ -1,4 +1,9 @@
-tellraw @s {"text":"[BroadcastTeamLives] Not yet implemented!","color":"red"}
+tellraw @a {"text":"The current team lives:","bold":true,"color":"green"}
+
+tellraw @a [{"text":"  Team 1 - ","color":"green"},{"score":{"name":"Team1","objective":"TTL_TeamLives"}},{"text":" lives"}]
+tellraw @a [{"text":"  Team 2 - ","color":"green"},{"score":{"name":"Team2","objective":"TTL_TeamLives"}},{"text":" lives"}]
+tellraw @a [{"text":"  Team 3 - ","color":"green"},{"score":{"name":"Team3","objective":"TTL_TeamLives"}},{"text":" lives"}]
+tellraw @a [{"text":"  Team 4 - ","color":"green"},{"score":{"name":"Team4","objective":"TTL_TeamLives"}},{"text":" lives"}]
 
 # Reset trigger
 scoreboard players reset @s BroadcastTeamLives

@@ -21,7 +21,7 @@ Team lives should be visible on each players screen (sidebar?).
 Need a scoreboard for config settings "TTL_Config"
 Need a scoreboard for initialised players "TTL_ReadyPlayers"
 Need a scoreboard for admins "TTL_Admins"
-Need a scoreboard to keep track of time dead "TTL_DeadTime"
+Need a scoreboard to keep track of time dead "TTL_TimeDead"
 Need a scoreboard for player deaths "TTL_Deaths"
 Need a scoreboard for previous player deaths "TTL_PrevDeaths"
 Need a scoreboard for team lives "TTL_TeamLives"
@@ -38,3 +38,10 @@ Need an admin trigger for resetting datapack config
 Need an admin trigger for reseting team lives "ResetLives"
 Need an admin trigger for displaying each team's lives "ShowTeamLives"
 Need an admin trigger for displaying each team's lives to everyone "BroadcastTeamLives"
+Also have admin triggers for "GiveLife" [TEAM] and "TakeLife" [TEAM]
+
+
+
+
+
+
