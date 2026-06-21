@@ -1,6 +1,6 @@
 function tyloxonteamlives:resetconfig
 
-tellraw @s {"text":"The config for datapack TyloxonTeamLives has been reset!","color":"green"}
+tellraw @s {"text":"[TTL-ResetConfig] The config for datapack TyloxonTeamLives has been reset!","color":"green"}
 
 # Reset trigger
 scoreboard players reset @s ResetConfig

@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"You have been eliminated. Enjoy watching :D ","color":"gray"}]

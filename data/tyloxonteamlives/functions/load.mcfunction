@@ -1,5 +1,5 @@
 # Load message
-tellraw @a {"text":"[TyloxonTeamLives] Loading right now biitchesss!","color":"green"}
+tellraw @a {"text":"[TyloxonTeamLives] Loading datapack by Tyloxon","color":"green"}
 
 # Config for the datapack
 scoreboard objectives add TTL_Config dummy
@@ -51,6 +51,7 @@ scoreboard objectives add TeamInfo trigger
 
 # Register admin triggers
 scoreboard objectives add JoinTeam trigger
+scoreboard objectives add LeaveTeam trigger
 scoreboard objectives add ResetConfig trigger
 scoreboard objectives add ResetLives trigger
 scoreboard objectives add GiveLife trigger

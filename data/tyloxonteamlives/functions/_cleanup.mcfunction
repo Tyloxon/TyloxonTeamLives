@@ -21,6 +21,7 @@ scoreboard objectives remove TeamInfo
 
 # Remove admin triggers
 scoreboard objectives remove JoinTeam
+scoreboard objectives remove LeaveTeam
 scoreboard objectives remove ResetConfig
 scoreboard objectives remove ResetLives
 scoreboard objectives remove GiveLife
@@ -36,6 +37,6 @@ execute as @a[tag=eliminated] run tag @s remove eliminated
 execute as @a[tag=respawning] run tag @s remove respawning
 
 # Success message
-tellraw @s {"text":"The datapack TyloxonTeamLives has been cleaned up from this save.\nPlease note: It will re-initialise if you reload the save with the datapack enabled!","color":"gold"}
+tellraw @s {"text":"[TTL-Cleanup] The datapack TyloxonTeamLives has been cleaned up from this save. Please note: It will re-initialise if you reload the save with the datapack enabled!","color":"gold"}
 
 # No need to clean up triggers because we delete them in this function :>
