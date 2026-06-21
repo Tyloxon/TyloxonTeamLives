@@ -34,6 +34,7 @@ scoreboard objectives add TTL_TeamLives dummy
 scoreboard objectives add TTL_Deaths deathCount
 scoreboard objectives add TTL_PrevDeaths dummy
 scoreboard objectives add TTL_TimeDead dummy
+scoreboard objectives add TTL_RespawnDelay dummy
 scoreboard objectives add TTL_PlayerLivesVisual dummy
 
 scoreboard objectives setdisplay list TTL_PlayerLivesVisual
@@ -46,15 +47,17 @@ scoreboard players operation Team4 TTL_TeamLives = InitialTeamLives TTL_Config
 
 # Register global triggers
 scoreboard objectives add RespawnTeam trigger
+scoreboard objectives add TeamInfo trigger
 
 # Register admin triggers
 scoreboard objectives add JoinTeam trigger
 scoreboard objectives add ResetConfig trigger
 scoreboard objectives add ResetLives trigger
 scoreboard objectives add GiveLife trigger
-scoreboard objectives add TakeLife trigger
+scoreboard objectives add RemoveLife trigger
 scoreboard objectives add ShowTeamLives trigger
 scoreboard objectives add BroadcastTeamLives trigger
+scoreboard objectives add TTL_Reset trigger
 scoreboard objectives add TTL_Cleanup trigger
 
 # Set loaded once

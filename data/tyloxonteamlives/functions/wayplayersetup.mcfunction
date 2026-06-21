@@ -1,4 +1,7 @@
-# Way per-player setup
+# WILL RAISE ERROR IF WAY MOD ISN'T ON :3
+# SHOULD STILL RUN FINE THOUGH :D
+
+# Per-player way setup
 way admin seeAll @s
 way see outline true
 

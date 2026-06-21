@@ -30,7 +30,9 @@ Need a config for whether the datapack has run before "LoadedOnce"
 Need a config for initial team lives of each team "InitialTeamLives"
 Need a config for time before respawn "RespawnWaitTime"
 Need a config for max time for forced respawn "RespawnTimeout"
+Need a config for time it takes to respawn "RespawnActionTime"
 Need a config for distance spectators can be from teammates "SpectatorMaxDistance"
+Debug config for eliminating teams which have no alive players "EliminateDeadTeams"
 
 Need a trigger for respawning dead teammates "RespawnTeam"
 Need a trigger for joining each team respectively "JoinTeam" passing team number

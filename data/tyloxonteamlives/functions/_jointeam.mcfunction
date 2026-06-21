@@ -10,7 +10,7 @@ execute if score TempIf TTL_Config matches 4 run team join Team4
 function tyloxonteamlives:wayplayersetup
 
 # Success message
-execute unless score TempIf TTL_Config matches 5.. run tellraw @s [{"text":"You have joined team","color":"green"},{"score":{"name":"TempIf","objective":"TTL_Config"}}]
+execute unless score TempIf TTL_Config matches 5.. run tellraw @s [{"text":"You have joined Team ","color":"green"},{"score":{"name":"TempIf","objective":"TTL_Config"}}]
 # Fail message
 execute if score TempIf TTL_Config matches 5.. run tellraw @s {"text":"That is an invalid team! Try a number between 1 and 4.","color":"red"}
 
